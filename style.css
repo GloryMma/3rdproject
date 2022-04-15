@@ -1,0 +1,93 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: black;
+    padding-top: 40px;
+    padding: 40px;
+    color: white;
+}
+header h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+}
+
+ul a{
+    text-decoration: none;
+    
+}
+ul li{
+ display: inline-block;
+ margin-top:60px ;
+ margin-bottom: 5px ;
+ margin-right:20px ;
+ font-size: 20px;
+}
+.container img{
+    width: 100%;
+    height: 800px;
+}
+.overbox{
+    font-size: 35px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+}
+.overbox1{
+    color: white;
+    background-color: black;
+    position: absolute;
+    top:100% ;
+    left:50% ;
+    transform: translate(-50%, -100%);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.images{
+    display: flex;
+    overflow-x: hidden;  
+
+}
+.pea{
+    width: 25%;
+
+}
+.anotherimg{
+    display: flex;
+    overflow-x: hidden;
+}
+.love{
+    width: 25%;
+}
+.footer{
+    margin-left: 160px;
+}
+.try{
+    margin-left: 160px;
+}
+a:link{
+    color: aqua;
+}
